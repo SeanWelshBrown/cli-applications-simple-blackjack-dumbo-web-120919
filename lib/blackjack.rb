@@ -63,6 +63,6 @@ def runner
   
   card_total = initial_round
   
-  prompt_user
+  until card_total > 21 
 end
     
