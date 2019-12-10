@@ -45,6 +45,7 @@ def hit?(number)
   elsif input != 'h' || 's'
     invalid_command
     prompt_user
+    input = get_user_input
   end
   
 end
