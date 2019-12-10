@@ -28,6 +28,7 @@ def initial_round
   sum = (num_1 + num_2)
   
   display_card_total(sum)
+  sum
 end
 
 def hit?
