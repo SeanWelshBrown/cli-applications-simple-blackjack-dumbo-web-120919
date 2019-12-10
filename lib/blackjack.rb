@@ -39,6 +39,7 @@ def hit?(number)
   
   if input == 'h'
     current_total += deal_card
+    current_total
   elsif input == 's'
     current_total
   elsif input != 'h' || 's'
@@ -46,7 +47,6 @@ def hit?(number)
     prompt_user
   end
   
-  current_total
 end
 
 def invalid_command
